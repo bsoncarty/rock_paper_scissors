@@ -7,11 +7,11 @@ function game() {
     while (count < 5) {
 
 
-        let userChoice = prompt("Choose either Rock, Paper, or Scizzors:")
+        let userChoice = prompt("Choose either Rock, Paper, or Scissors:")
 
         let computerChoice = computerPlay();
         function computerPlay() {
-            let random = ["rock", "paper", "scizzors"];
+            let random = ["rock", "paper", "scissors"];
             return (random[Math.floor(Math.random() * random.length)]);
         }
 
@@ -22,25 +22,25 @@ function game() {
             } else if (userChoice.toLowerCase() === "rock" && computerChoice === "paper") {
                 losses += 1;
                 return "You lose, paper beats rock."
-            } else if (userChoice.toLowerCase() === "rock" && computerChoice === "scizzors") {
+            } else if (userChoice.toLowerCase() === "rock" && computerChoice === "scissors") {
                 wins += 1;
-                return "You win! Rock beats scizzors!"
+                return "You win! Rock beats scissors!"
             } else if (userChoice.toLowerCase() === "paper" && computerChoice === "rock") {
                 wins += 1;
                 return "You win! Paper beats rock!"
             } else if (userChoice.toLowerCase() === "paper" && computerChoice === "paper") {
                 draws += 1;
                 return "Draw"
-            } else if (userChoice.toLowerCase() === "paper" && computerChoice === "scizzors") {
+            } else if (userChoice.toLowerCase() === "paper" && computerChoice === "scissors") {
                 losses += 1;
-                return "You lose, scizzors beats paper."
-            } else if (userChoice.toLowerCase() === "scizzors" && computerChoice === "rock") {
+                return "You lose, scissors beats paper."
+            } else if (userChoice.toLowerCase() === "scissors" && computerChoice === "rock") {
                 losses += 1;
-                return "You lose, rock beats scizzors."
-            } else if (userChoice.toLowerCase() === "scizzors" && computerChoice === "paper") {
+                return "You lose, rock beats scissors."
+            } else if (userChoice.toLowerCase() === "scissors" && computerChoice === "paper") {
                 wins += 1;
-                return "You win! Scizzors beats paper!"
-            } else if (userChoice.toLowerCase() === "scizzors" && computerChoice === "scizzors") {
+                return "You win! Scissors beats paper!"
+            } else if (userChoice.toLowerCase() === "scissors" && computerChoice === "scissors") {
                 draws += 1;
                 return "Draw"
             }
