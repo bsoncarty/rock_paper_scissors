@@ -7,7 +7,7 @@ function game() {
     while (count < 5) {
 
 
-        let userChoice = prompt("Choose either Rock, Paper, or Scissors:")
+        // let userChoice = prompt("Choose either Rock, Paper, or Scissors:")
 
         let computerChoice = computerPlay();
         function computerPlay() {

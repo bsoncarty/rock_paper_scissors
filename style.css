@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
