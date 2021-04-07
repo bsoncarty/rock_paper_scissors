@@ -7,8 +7,24 @@ header {
     text-align: center;
 }
 
+.badge {
+    color: white;
+    margin-top: 75px;
+}
+
+#user-label {
+    float: left;
+    margin-left: 300px;
+}
+
+#computer-label {
+    float: right;
+    margin-right: 300px;
+}
+
 .choices {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 400px;
 }
