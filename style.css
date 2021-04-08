@@ -3,25 +3,33 @@ html {
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
+    background-image: linear-gradient(to bottom right, orange, teal);
 }
 
 header {
-    color: white;
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
     text-align: center;
 }
 
 .badge {
-    color: white;
+    color: black;
     margin-top: 75px;
 }
 
 #user-label {
     float: left;
     margin-left: 300px;
+    margin-right: 35px;
     font-size: x-large;
+    font-weight: bold;
     border-style:solid;
-    border-color: white;
+    border-color: black;
     padding: 10px;
     border-radius: 5px;
 }
@@ -31,14 +39,19 @@ header {
     margin-left: 150px;
     font-size: 75px;
     margin-top: 60px;
+    border-style:solid;
+    border-color: green;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 #computer-label {
     float: right;
     margin-right: 290px;
     font-size: x-large;
+    font-weight: bold;
     border-style:solid;
-    border-color: white;
+    border-color: black;
     padding: 10px;
     border-radius: 5px;
 }
@@ -48,6 +61,11 @@ header {
     margin-right: 150px;
     font-size: 75px;
     margin-top: 60px;
+    border-style:solid;
+    border-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    
 }
 
 .choices {
