@@ -64,6 +64,13 @@ function game() {
 }
 
 
+let userScore = 0;
+let computerScore = 0;
+let userScore_div = document.getElementById('user-score');
+let computerScore_div = document.getElementById('computer-score');
+let scoreboard_div = document.querySelector('.scoreboard');
+let result_div = document.querySelector('.result');
+
 let rock_div = document.getElementById('r');
 let paper_div = document.getElementById('p');
 let scissors_div = document.getElementById('s');
